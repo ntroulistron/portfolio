@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="js/reset.js" id="logo-reset">Portfolio</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    
+    
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span class="highlight">Aleksandros Bilelli</span></h1>
+            <p> Web Developer | Software Engineer</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+    
+    
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="section-header">About Me</h2>
+        <div class="about-content">
+            <img src="assets/profile-placeholder.jpg" alt="Your Photo">
+            <p>
+                Hi there! I'm a 20-year-old web developer, studying Computer Science at the University of Derby, with a passion for creating interactive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and PHP, and I'm currently diving into NetLogo to explore how simulations are made.
+                <br><br>
+                Over the years of my studies, I've worked on various projects including API integrations, chat applications, CRUD systems, and even a distributed systems project. I also got my first freelance job as a developer, where I had to create a Fire Spread Simulation on Netlogo. You can see the work on the Projects section. When I'm not coding, I enjoy exploring new technologies, learning about AI as I think this is the future, and finding innovative ways to solve real-world problems through software development.
+                <br><br>
+                Feel free to explore my portfolio and check out the projects I've built. I'm excited to continue growing and making an impact through web development!
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-header">Projects</h2>
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Chat Application</h3>
+                    <p>A real-time chat application built using Python with a client-server architecture.</p>
+                    <a href="https://github.com/ntroulistron/Chat-application" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+    
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>NetLogo Simulation - Two Phase Locking</h3>
+                    <p>A simulation in NetLogo showcasing the two-phase locking mechanism used in distributed systems.</p>
+                    <a href="https://github.com/ntroulistron/Distributed-Resource-Sharing" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+    
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>NetLogo Simulation - Fire Spread Simulation</h3>
+                    <p>A NetLogo simulation exploring the dynamics of fire spreading in a forest scenario.</p>
+                    <a href="https://github.com/ntroulistron/FireSpreadSimulation" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+    
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <h3>CRUD System</h3>
+                    <p>A web application designed for data management in airline companies, implementing Create, Read, Update, and Delete functionalities.</p>
+                    <a href="https://github.com/ntroulistron/Flight-Management" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+    
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <h3>CtrlAltElite Project</h3>
+                    <p>A collaborative team project demonstrating the creation of a game and website.</p>
+                    <a href="https://github.com/ntroulistron/CtrlAltElite" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+            <!-- Slider Arrows -->
+            <button class="slider-btn left-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn right-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-header">Skills</h2>
+        <div class="skills-container">
+            <!-- HTML -->
+            <div class="skill-card">
+                <i class="fab fa-html5" style="color: #e34f26;"></i>
+                <h3>HTML</h3>
+            </div>
+            <!-- CSS -->
+            <div class="skill-card">
+                <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+                <h3>CSS</h3>
+            </div>
+            <!-- JavaScript -->
+            <div class="skill-card">
+                <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <!-- Python -->
+            <div class="skill-card">
+                <i class="fab fa-python" style="color: #3776ab;"></i>
+                <h3>Python</h3>
+            </div>
+            <!-- PHP -->
+            <div class="skill-card">
+                <i class="fab fa-php" style="color: #777bb4;"></i>
+                <h3>PHP</h3>
+            </div>
+            <!-- C++ -->
+            <div class="skill-card">
+                <i class="fas fa-code" style="color: #00599c;"></i>
+                <h3>C++</h3>
+            </div>
+            <!-- NetLogo -->
+            <div class="skill-card">
+                <i class="fas fa-cogs" style="color: #6a11cb;"></i>
+                <h3>NetLogo</h3>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-header">Contact</h2>
+        <p>Feel free to connect with me through the following platforms:</p>
+        <div class="contact-links">
+            <a href="https://github.com/ntroulistron" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/aleksandros-bilelli-2b75302b7" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://www.fiverr.com/aleksandros_bil" target="_blank">
+                <i class="fas fa-briefcase"></i> Fiverr
+            </a>
+            <a href="mailto:alekos.mpilelli@gmail.com">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Aleksandros Bilelli. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/reset.js"></script>
+
+</body>
+</html>
